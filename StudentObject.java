@@ -27,6 +27,7 @@ public class StudentObject {
     }
     public void changeID (String newID){
         System.out.println("Student ID's should not be changed are you sure this needs changed");
+        @SuppressWarnings("resource")
         Scanner inp=new Scanner(System.in);
         String test=inp.nextLine();
         if (test.equals("y") || test.equals("Y")){
