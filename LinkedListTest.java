@@ -1,4 +1,4 @@
-public class LinkedListTest {
+epublic class LinkedListTest {
 
     private Node head;
     private Node tail;
