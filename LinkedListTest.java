@@ -19,11 +19,11 @@ epublic class LinkedListTest {
             head=current; 
             tail=current;
             return;
-        }
+        }else{
           tail.next=current;// set the current tail.next to be the new node.
           current.previous=tail;// set the new tails, previous to the old tail
           tail=current;// replace tail with the new node.
-          
+        }
      }
  
     //removes a node and returns to object that was stored in the node.  Changes the previous node and next node to link to each other.
