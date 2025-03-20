@@ -10,6 +10,9 @@ public class StudentObject {
         this.address=address;
         this.studentID=studentID;
     }
+    public String toString(){
+        return name+" at "+address+" student id "+studentID;
+    }
     public String getName(){
         return name;
     }
