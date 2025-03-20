@@ -5,7 +5,7 @@ public class LinkedListTest {
     private Node current;
   
     LinkedListTest(){
-          head=new Node(null, null,null);
+          head=null;
           tail=head;
           }
  
