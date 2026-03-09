@@ -1,3 +1,6 @@
+//By    Kim.gross@malad.us
+//Sample student object class for my students to use as a starting point for their linked list.  This is not a complete implementation, but it should be enough to get you started.  You will need to add some methods to this class, and you will need to create a Node class and a LinkedListTest class.  The Node class should have a data field that stores a StudentObject, and a next field that points to the next node in the list.  The LinkedListTest class should have methods to insert, add and remove nodes from the linked list.
+
 import java.util.Scanner;
 
 public class StudentObject {
